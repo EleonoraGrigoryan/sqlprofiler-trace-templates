@@ -1,0 +1,11 @@
+-- TSQL Script to run before tracing to allow Profiler to trace blocked processes
+
+SP_CONFIGURE 'show advanced options', 1 ;
+GO
+RECONFIGURE ;
+GO
+
+SP_CONFIGURE 'blocked process threshold', 10 ;
+GO
+RECONFIGURE
+go
