@@ -9,3 +9,4 @@ SP_CONFIGURE 'blocked process threshold', 10 ;
 GO
 RECONFIGURE
 go
+
