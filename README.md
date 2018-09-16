@@ -3,3 +3,4 @@ Exported templates for SQL Profiler to trace common issues. Helps to identify an
 .tdf file extention
 - Deadlock Detector 
 - Blocked Process Detector
+- Auto Stats Event Detector
